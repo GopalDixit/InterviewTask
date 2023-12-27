@@ -1,0 +1,31 @@
+/* PokemonModal.css */
+.pokemon-modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .pokemon-modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .pokemon-modal img {
+    max-width: 150px;
+    max-height: 150px;
+    margin-bottom: 12px;
+  }
+  
+  .modal-info {
+    font-weight: bold;
+  }
+  

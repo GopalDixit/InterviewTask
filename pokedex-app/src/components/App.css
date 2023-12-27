@@ -1,0 +1,62 @@
+/* App.css */
+body{
+  background-color: bisque;
+}
+.App {
+  text-align: center;
+}
+
+.PokemonImage {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.PokemonImage .pokemon-item {
+  margin: 20px;
+  text-align: center;
+}
+
+.PokemonImage img {
+  max-width: 120px;
+  max-height: 120px;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background-color: #fce2a9;
+
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease-in-out;
+}
+
+.PokemonImage img:hover {
+  transform: scale(1.1);
+}
+
+.PokemonImage p {
+  margin-top: 8px;
+  font-weight: bold;
+  color: #333;
+}
+/* App.css */
+.Page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.page-button {
+  background-color: #fbc85c;
+  color: #0b0a0a;
+  padding: 10px 15px;
+  margin: 0 8px; /* Add margin to create space between buttons */
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.page-button:hover {
+  background-color: #fba243;
+}
